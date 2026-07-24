@@ -1,19 +1,47 @@
 aid: bbn-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bbn-technologies.png
 name: BBN Technologies
-description: BBN Technologies is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  BBN Technologies is a research and development organization founded in 1948
+  (originally Bolt Beranek and Newman) and now operating as RTX BBN Technologies,
+  a division of RTX (Raytheon). BBN is historically notable for pioneering the
+  ARPANET, early network email, and packet-switched networking, and today
+  conducts advanced defense and intelligence R&D across AI/machine learning,
+  command and control, cyber operations, signal processing and spectrum,
+  networking, quantum and photonics, and voice and language technologies. BBN
+  serves government and defense customers and does not publish a public developer
+  portal, API, or SDK surface; this profile is maintained for network identity
+  and discovery only.
 url: https://raw.githubusercontent.com/api-evangelist/bbn-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - accel
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Defense
+- Research and Development
+- Aerospace
+- Networking
+- Artificial Intelligence
+- Cybersecurity
+- Government
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.bbn.com
+  url: https://www.bbn.com
+- type: DomainSecurity
+  url: security/bbn-technologies-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
